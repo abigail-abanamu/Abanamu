@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Analytics Dashboard</title>
+    <title>Nutch World Classics – Premium Footwear Collection</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
         :root {
-            /* Professional Color Palette (Deep Slate & Vibrant Accent Blue) */
             --bg-primary: #f8fafc;
             --bg-sidebar: #0f172a;
             --bg-card: #ffffff;
@@ -38,7 +37,6 @@
             overflow: hidden;
         }
 
-        /* Sidebar Navigation */
         .sidebar {
             width: 260px;
             background-color: var(--bg-sidebar);
@@ -88,7 +86,6 @@
             color: #ffffff;
         }
 
-        /* Main Content Area */
         .main-content {
             flex: 1;
             display: flex;
@@ -96,7 +93,6 @@
             overflow-y: auto;
         }
 
-        /* Top Header */
         .header {
             background-color: var(--bg-card);
             padding: 16px 32px;
@@ -128,7 +124,6 @@
             border-radius: 50%;
         }
 
-        /* Dashboard Container */
         .dashboard-container {
             padding: 32px;
             max-width: 1200px;
@@ -152,7 +147,6 @@
             font-size: 14px;
         }
 
-        /* Metrics Grid */
         .metrics-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -190,7 +184,6 @@
             color: var(--success);
         }
 
-        /* Data Table Section */
         .table-section {
             background-color: var(--bg-card);
             border: 1px solid var(--border-color);
@@ -262,78 +255,89 @@
     <aside class="sidebar">
         <div class="logo">
             <div class="logo-dot"></div>
-            Acme Corp
+            Nutch Classics
         </div>
         <ul class="nav-links">
-            <li class="nav-item active"><a href="#">Dashboard</a></li>
-            <li class="nav-item"><a href="#">Analytics</a></li>
-            <li class="nav-item"><a href="#">Customers</a></li>
-            <li class="nav-item"><a href="#">Settings</a></li>
+            <li class="nav-item active"><a href="#">Collection</a></li>
+            <li class="nav-item"><a href="#">Shoes</a></li>
+            <li class="nav-item"><a href="#">Half Shoes</a></li>
+            <li class="nav-item"><a href="#">Slippers</a></li>
         </ul>
     </aside>
 
     <main class="main-content">
         <header class="header">
-            <input type="text" class="search-bar" placeholder="Search transactions, files, reports...">
+            <input type="text" class="search-bar" placeholder="Search footwear, styles, collections...">
             <div class="user-profile">
-                <button class="btn-primary">New Report</button>
+                <button class="btn-primary">Shop Now</button>
                 <div class="avatar"></div>
             </div>
         </header>
 
         <div class="dashboard-container">
             <section class="welcome-sec">
-                <h1>Welcome back, Alex</h1>
-                <p>Here's what is happening with your business operations today.</p>
+                <h1>Welcome to Nutch World Classics</h1>
+                <p>Curated footwear – shoes, half shoes, and slippers for every occasion.</p>
             </section>
 
             <section class="metrics-grid">
                 <div class="card">
-                    <div class="card-title">Total Revenue</div>
-                    <div class="card-value">$48,259.80</div>
-                    <div class="card-trend">↑ 12.5% vs last month</div>
+                    <div class="card-title">Total Collection</div>
+                    <div class="card-value">12,450+</div>
+                    <div class="card-trend">↑ 8.3% vs last season</div>
                 </div>
                 <div class="card">
-                    <div class="card-title">Active Users</div>
-                    <div class="card-value">3,642</div>
-                    <div class="card-trend">↑ 8.2% vs last week</div>
+                    <div class="card-title">Shoes Available</div>
+                    <div class="card-value">5,280</div>
+                    <div class="card-trend">↑ 5.1% vs last month</div>
                 </div>
                 <div class="card">
-                    <div class="card-title">Conversion Rate</div>
-                    <div class="card-value">2.4%</div>
-                    <div class="card-trend">↑ 4.1% vs last month</div>
+                    <div class="card-title">Half Shoes</div>
+                    <div class="card-value">3,910</div>
+                    <div class="card-trend">↑ 6.7% restocked</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Slippers</div>
+                    <div class="card-value">3,260</div>
+                    <div class="card-trend">↑ 4.2% new arrivals</div>
                 </div>
             </section>
 
             <section class="table-section">
-                <h2 class="section-title">Recent Transactions</h2>
+                <h2 class="section-title">Best Sellers</h2>
                 <table class="data-table">
                     <thead>
                         <tr>
-                            <th>Customer</th>
-                            <th>Date</th>
-                            <th>Amount</th>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>Price</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Nova Technologies</strong></td>
-                            <td>May 24, 2026</td>
-                            <td>$4,500.00</td>
-                            <td><span class="status-badge">Completed</span></td>
+                            <td><strong>Classic Oxford Shoe</strong></td>
+                            <td>Shoes</td>
+                            <td>$189.00</td>
+                            <td><span class="status-badge">In Stock</span></td>
                         </tr>
                         <tr>
-                            <td><strong>Quantum Labs</strong></td>
-                            <td>May 23, 2026</td>
-                            <td>$1,200.00</td>
-                            <td><span class="status-badge">Completed</span></td>
+                            <td><strong>Loafers (Half Shoe)</strong></td>
+                            <td>Half Shoes</td>
+                            <td>$129.00</td>
+                            <td><span class="status-badge">In Stock</span></td>
                         </tr>
                         <tr>
-                            <td><strong>Apex Media</strong></td>
-                            <td>May 22, 2026</td>
-                            <td>$850.00</td>
-                            <td><span class="status-badge">Completed</span></td>
+                            <td><strong>Leather Slide Slipper</strong></td>
+                            <td>Slippers</td>
+                            <td>$79.00</td>
+                            <td><span class="status-badge">In Stock</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Wingtip Brogue</strong></td>
+                            <td>Shoes</td>
+                            <td>$215.00</td>
+                            <td><span class="status-badge">In Stock</span></td>
                         </tr>
                     </tbody>
                 </table>
